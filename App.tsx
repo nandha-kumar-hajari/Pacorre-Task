@@ -6,7 +6,7 @@ import {Provider} from 'react-redux';
 import {Store, persistor} from './src/redux';
 import {PersistGate} from 'redux-persist/integration/react';
 import ProfileScreen from './src/screens/ProfileScreen';
-import DashBoardScreen from './src/screens/DashboardScreen';
+import DashBoardScreen from './src/screens/dashboard/DashboardScreen';
 import Toast from 'react-native-toast-message';
 
 const Stack = createNativeStackNavigator();
@@ -15,9 +15,9 @@ export default function App() {
     <Provider store={Store}>
       <PersistGate loading={null} persistor={persistor}>
         <NavigationContainer>
-          <Stack.Navigator screenOptions={{}}>
-            <Stack.Screen name="Profile" component={ProfileScreen} />
+          <Stack.Navigator screenOptions={{headerShown: false}}>
             <Stack.Screen name="Dashboard" component={DashBoardScreen} />
+            <Stack.Screen name="Profile" component={ProfileScreen} />
           </Stack.Navigator>
         </NavigationContainer>
       </PersistGate>
