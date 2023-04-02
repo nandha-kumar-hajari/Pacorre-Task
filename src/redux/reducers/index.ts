@@ -1,11 +1,11 @@
-import { SAVE_EMAIL, SAVE_MOBILE, SAVE_ADDRESS ,SAVE_USERNAME} from './../actions/types';
+import { SAVE_EMAIL, SAVE_MOBILE, SAVE_LANGUAGE ,SAVE_USERNAME} from './../actions/types';
 
 
 const initialState = {
   userName: '',
-  email: '',
+  email: 'josephp@gmail.cpm',
   mobile: '',
-  address: ''
+  language:'English'
 };
 
 //Passing and initiak state to reducer and dispatching relevant action
@@ -28,10 +28,10 @@ const Reducer = (state = initialState, action: any) => {
         ...state,
         mobile: action.payload,
       };
-      case SAVE_ADDRESS:
+      case SAVE_LANGUAGE:
         return {
           ...state,
-          address: action.payload,
+          language: action.payload,
         };
     default:
       return state;

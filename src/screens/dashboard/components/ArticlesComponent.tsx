@@ -1,11 +1,10 @@
 import {FlatList, StyleSheet, Text, View, Image} from 'react-native';
 import React from 'react';
-
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import Fonts from '../../../utils/Fonts';
 import {RFValue} from 'react-native-responsive-fontsize';
 import Colors from '../../../utils/Colors';
-import {TabView} from 'react-native-tab-view';
+
 import {ProfileImg, ThinkGreenImg} from '../../../utils/Images';
 
 const Tab = createMaterialTopTabNavigator();

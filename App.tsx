@@ -5,7 +5,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {Provider} from 'react-redux';
 import {Store, persistor} from './src/redux';
 import {PersistGate} from 'redux-persist/integration/react';
-import ProfileScreen from './src/screens/ProfileScreen';
+import ProfileScreen from './src/screens/profile/ProfileScreen';
 import DashBoardScreen from './src/screens/dashboard/DashboardScreen';
 import Toast from 'react-native-toast-message';
 

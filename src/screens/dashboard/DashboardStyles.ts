@@ -38,7 +38,7 @@ export default StyleSheet.create<Styles>({
     alignItems: 'center',
     fontFamily: Fonts.SemiBold,
     fontSize: RFValue(15),
-    width: '78%',
+    width: '75%',
     marginBottom: -4,
   },
   greetViewStyle: {

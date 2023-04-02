@@ -1,4 +1,4 @@
-import { SAVE_USERNAME, SAVE_EMAIL, SAVE_MOBILE, SAVE_ADDRESS } from './types';
+import { SAVE_USERNAME, SAVE_EMAIL, SAVE_MOBILE, SAVE_LANGUAGE } from './types';
 
 //Action to save userinfo
 export const saveUserName = (key: string) => ({
@@ -16,6 +16,6 @@ export const saveEmail = (key: string) => ({
 });
 
 export const saveAddress = (key: string) => ({
-    type: SAVE_ADDRESS,
+    type: SAVE_LANGUAGE,
     payload: key,
   });

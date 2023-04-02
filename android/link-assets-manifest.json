@@ -18,8 +18,36 @@
       "sha1": "8a4ace9392d06bcb7f8ea2f5169b07e4c383a90d"
     },
     {
+      "path": "src/assets/images/geenbg.jpg",
+      "sha1": "e94880089f736884cfa4bf2e43b82e35decf6849"
+    },
+    {
+      "path": "src/assets/images/next.png",
+      "sha1": "460a0101f7ae82f8647b7eae64aa5a247ddf7e2c"
+    },
+    {
+      "path": "src/assets/images/profile.png",
+      "sha1": "27c0bc590562f9da5110719f4789053cb50bf21e"
+    },
+    {
+      "path": "src/assets/images/quitsmoke.png",
+      "sha1": "8a695dadad448c7e3f0a88c4106e093e587b6e7f"
+    },
+    {
       "path": "src/assets/images/search.png",
       "sha1": "53a25f23bf63b6cd3fe395023e82262ec28ba21f"
+    },
+    {
+      "path": "src/assets/images/shareGreen.png",
+      "sha1": "9e46359f53ff4a4d84eb7f2e497898bfb2ac725f"
+    },
+    {
+      "path": "src/assets/images/tablet.png",
+      "sha1": "8201bd468ff2c41d1d2a3ea4da08a6c6f8537b0f"
+    },
+    {
+      "path": "src/assets/images/thinkgreen.png",
+      "sha1": "957239364968a976030e49c23ef70b27a3061b25"
     }
   ]
 }
