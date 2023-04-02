@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 6,
-    width: RFValue(72),
+    width: RFValue(62),
     height: RFValue(45),
     elevation: 4,
     shadowOffset: {width: 2, height: 4},

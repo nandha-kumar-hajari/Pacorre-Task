@@ -81,7 +81,7 @@ const TextField: FC<TextInputProps> = ({
             editable={isEditable}
             maxLength={maxLength}
             style={{
-              width: RFValue(200),
+              width: RFValue(180),
               padding: 0,
               fontFamily: Fonts.SemiBold,
               color: Colors.GRAY.CONTRAST,

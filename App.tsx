@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text,LogBox} from 'react-native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {NavigationContainer} from '@react-navigation/native';
 import {Provider} from 'react-redux';
@@ -8,7 +8,7 @@ import {PersistGate} from 'redux-persist/integration/react';
 import ProfileScreen from './src/screens/profile/ProfileScreen';
 import DashBoardScreen from './src/screens/dashboard/DashboardScreen';
 import Toast from 'react-native-toast-message';
-
+LogBox.ignoreAllLogs()
 const Stack = createNativeStackNavigator();
 export default function App() {
   return (

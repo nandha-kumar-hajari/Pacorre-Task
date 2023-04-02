@@ -83,30 +83,13 @@ export default function DashBoardScreen(props: any) {
         <ArticlesComponent />
         <RewardsComponent />
 
-        <View
-          style={{
-            paddingVertical: RFValue(12),
-            width: '98%',
-            borderRadius: 6,
-            flexDirection: 'row',
-            alignItems: 'center',
-            paddingHorizontal: RFValue(14),
-            backgroundColor: '#E6F6F2',
-          }}>
+        <View style={Styles.bottomViewStyle}>
           <Image
             source={ShareGreen}
-            style={{
-              height: RFValue(15),
-              width: RFValue(15),
-              marginRight: RFValue(5),
-            }}
+            style={Styles.shareIconStyle}
           />
           <Text
-            style={{
-              fontFamily: Fonts.SemiBold,
-              color: Colors.BLACK,
-              fontSize: RFValue(10),
-            }}>
+            style={Styles.shareTextStyle}>
             Share your rewards with your friends in just a click.
           </Text>
         </View>

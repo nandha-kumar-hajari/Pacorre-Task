@@ -12,6 +12,9 @@ interface Styles {
   greetViewStyle: ViewStyle;
   titleStyle: TextStyle;
   nameStyle: TextStyle;
+  bottomViewStyle: ViewStyle;
+  shareIconStyle: ImageStyle;
+  shareTextStyle: TextStyle;
 }
 
 export default StyleSheet.create<Styles>({
@@ -54,5 +57,25 @@ export default StyleSheet.create<Styles>({
     fontFamily: Fonts.Regular,
     color: Colors.BLACK,
     fontSize: RFValue(20),
+  },
+  bottomViewStyle: {
+    paddingVertical: RFValue(12),
+    width: '98%',
+    borderRadius: 6,
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: RFValue(14),
+    backgroundColor: '#E6F6F2',
+  },
+  shareIconStyle: {
+    height: RFValue(15),
+    width: RFValue(15),
+    marginRight: RFValue(5),
+  },
+  shareTextStyle: {
+    fontFamily: Fonts.SemiBold,
+    color: Colors.BLACK,
+    fontSize: RFValue(10),
+    width: '97%',
   },
 });
