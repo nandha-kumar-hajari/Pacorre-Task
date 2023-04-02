@@ -8,6 +8,8 @@
 - cd [project directory]
 - npm install
 - react-native run android (or) npm run android
+- cd ios && pod install (iOS only)
+- npm run ios
 ```
 
 ## Packages used
