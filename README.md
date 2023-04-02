@@ -15,7 +15,6 @@
 
 | Package | Source |
 | ------ | ------ |
-
 | Vector Icons | [https://github.com/oblador/react-native-vector-icons] |
 | Victory Native Graphs | [https://github.com/formidablelabs/victory] |
 | Circular Progress | [https://github.com/bartgryszko/react-native-circular-progress] |
